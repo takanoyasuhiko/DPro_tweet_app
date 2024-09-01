@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyTweetApp</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbo-track': 'reload' %>
+  <%= javascript_importmap_tags %>
+</head>
+
+<body>
+  <header>
+    <h1>MyTweetApp</h1>
+  </header>
+
+  <%= yield %>
+
+  <footer>
+    <p>© 2024 MyTweetApp</p>
+  </footer>
+</body>
+</html>
